@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+  postgres:
+    image: postgres:9.6
+    container_name: "db-teste-semob"
+    environment:
+      - POSTGRES_USER=db-teste-semob
+      - POSTGRES_PASSWORD=db-teste
+      - TZ=GMT-3
+    volumes:
+      - "./data/postgres:/var/lib/postgres/data"
+    ports:
+      - 5432:5432
+    networks:
+      - postgres
+
+networks:
+  postgres:
+    driver: bridge
+  spring:
+    driver: bridge
