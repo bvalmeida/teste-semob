@@ -12,6 +12,10 @@ spring:
     password: ${DB_PASSWORD:db-teste}
     url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/${DB_NAME:db-teste-semob}
 
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+
   jpa:
     properties:
       hibernate:
