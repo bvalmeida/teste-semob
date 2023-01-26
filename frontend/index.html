@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+  <script src="bower_components/angular/angular.min.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+  <div ng-controller="myController">
+
+    <button ng-click="get()">aperte</button>
+    <div ng-repeat="cep in ceps">
+        {{cep.cep}}
+    </div>
+
+  </div>
+</body>
+</html>
