@@ -11,6 +11,7 @@ import br.com.semob.utilitys.ConvertUtility;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 
+import java.time.OffsetDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -34,8 +35,12 @@ public class ViaCepServiceImpl implements ViaCepService, ConvertUtility<ViaCepEn
             throw new BadRequestException("Bad Request, algum dado está inválido ou nulo, por favor revise e tente novamente");
         }
 
+
         try{
-            return this.converteEntityParaResponse(this.viaCepRepository.save(this.converteRequestParaEntity(viaCepRequest)));
+            ViaCepEntity viaCepEntity = this.converteRequestParaEntity(viaCepRequest);
+            viaCepEntity.setDataHoraPesquisa(OffsetDateTime.now());
+
+            return this.converteEntityParaResponse(this.viaCepRepository.save(viaCepEntity));
         }catch (Exception ex){
             throw new ServerSideException("Algum error ocorreu, tente novamente em alguns instantes. Error: " + ex.getMessage());
         }

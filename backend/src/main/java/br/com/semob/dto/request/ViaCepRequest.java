@@ -1,8 +1,10 @@
 package br.com.semob.dto.request;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 
 import javax.validation.constraints.NotNull;
+import java.time.OffsetDateTime;
 
 @Data
 public class ViaCepRequest {
