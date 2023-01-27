@@ -8,55 +8,54 @@
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28//angular-route.min.js"></script>
 </head>
 <body>
-  <div ng-controller="secondController" class="bgScreen container">
+  <div ng-controller="secondController" class="container">
 
+    <div class="mt-3">
+        <a href="/index"> Buscar Por Cep</a>
+    </div>
     <div>
-        <a href="/index"> Primeira Página</a>
+        <div class="mt-5">
+            <label>Buscar Todas as Pesquisas</label>
+            <button class="btn btn-success mx-2" ng-click="getViaCepsPesquisas()">Buscar Pesquisas</button>
+        </div>
+    
+        <div class="cepResult mt-3">
+            <table class="table table-secundary table-hover table-sm">
+                <caption class="mb-2 mt-2">Lista de Pesquisas, ViaCep</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">CEP</th>
+                        <th scope="col">Logradouro</th>
+                        <th scope="col">Complemento</th>
+                        <th scope="col">Bairro</th>
+                        <th scope="col">Localidade</th>
+                        <th scope="col">Uf</th>
+                        <th scope="col">IBGE</th>
+                        <th scope="col">GIA</th>
+                        <th scope="col">DDD</th>
+                        <th scope="col">SIAFI</th>
+                        <th scope="col">Data da Pesquisa</th>
+                    </tr>
+                </thead>
+                <tbody ng-repeat="cep in ceps">
+                    <tr>
+                        <td>{{cep.cep}}</td>
+                        <td>{{cep.logradouro}}</td>
+                        <td>{{cep.complemento}}</td>
+                        <td>{{cep.bairro}}</td>
+                        <td>{{cep.localidade}}</td>
+                        <td>{{cep.uf}}</td>
+                        <td>{{cep.ibge}}</td>
+                        <td>{{cep.gia}}</td>
+                        <td>{{cep.ddd}}</td>
+                        <td>{{cep.siafi}}</td>
+                        <td>{{cep.dataHoraPesquisa}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 
   </div>
 </body>
 </html>
-
-<!-- <div class="listaViaCeps col-8">
-    <div class="mt-5">
-        <label>Buscar Todas as Pesquisas</label>
-        <button class="btn btn-success mx-2" ng-click="getViaCepsPesquisas()">Buscar Pesquisas</button>
-    </div>
-
-    <div class="cepResult mt-3">
-        <table class="table table-secundary table-hover table-sm">
-            <caption class="mb-2 mt-2 2">Lista de Pesquisas, ViaCep</caption>
-            <thead>
-                <tr>
-                    <th scope="col">CEP</th>
-                    <th scope="col">Logradouro</th>
-                    <th scope="col">Complemento</th>
-                    <th scope="col">Bairro</th>
-                    <th scope="col">Localidade</th>
-                    <th scope="col">Uf</th>
-                    <th scope="col">IBGE</th>
-                    <th scope="col">GIA</th>
-                    <th scope="col">DDD</th>
-                    <th scope="col">SIAFI</th>
-                    <th scope="col">Data da Pesquisa</th>
-                </tr>
-            </thead>
-            <tbody ng-repeat="cep in ceps">
-                <tr>
-                    <td>{{cep.cep}}</td>
-                    <td>{{cep.logradouro}}</td>
-                    <td>{{cep.complemento}}</td>
-                    <td>{{cep.bairro}}</td>
-                    <td>{{cep.localidade}}</td>
-                    <td>{{cep.uf}}</td>
-                    <td>{{cep.ibge}}</td>
-                    <td>{{cep.gia}}</td>
-                    <td>{{cep.ddd}}</td>
-                    <td>{{cep.siafi}}</td>
-                    <td>{{cep.dataHoraPesquisa}}</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</div> -->
