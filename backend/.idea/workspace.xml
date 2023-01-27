@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f567bd07-414d-4def-ae0b-916d603a57ab" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/semob/repository/ViaCepRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/semob/repository/ViaCepRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/semob/service/ViaCepService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/semob/service/ViaCepService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="f567bd07-414d-4def-ae0b-916d603a57ab" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +101,7 @@
       <updated>1674749273020</updated>
       <workItem from="1674749274817" duration="82000" />
       <workItem from="1674749418531" duration="460000" />
-      <workItem from="1674749890027" duration="13410000" />
+      <workItem from="1674749890027" duration="14006000" />
     </task>
     <servers />
   </component>
