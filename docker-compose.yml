@@ -16,6 +16,7 @@ services:
       - teste-semob-networks
 
   semob-api:
+    restart: on-failure:10
     container_name: semob-api
     build: "./backend"
     depends_on:
