@@ -10,7 +10,7 @@ Projeto realizado com:
 - Frontend - Angular 1
 - Banco de Dados - PostgreSQL versão 9.6
 
-- Dockerfile e Docker-Compose
+- Dockerfile e Docker-Compose versão 3
 
 # Execução
 
