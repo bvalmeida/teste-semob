@@ -15,11 +15,7 @@ app.config(function($routeProvider) {
 		});
 });
 
-app.controller('secondController', function($scope, navigationService, cepService){
-    $scope.goBack = function(){
-        navigationService.goToPage('/index.html');
-        console.log('teste');
-    }
+app.controller('secondController', function($scope, cepService){
 
     $scope.getViaCepsPesquisas = function(){
         cepService.getAll().then(function(response){
@@ -31,12 +27,6 @@ app.controller('secondController', function($scope, navigationService, cepServic
         })
     }
 
-});
-
-app.service('navigationService', function($location){
-    this.goToPage = function(page){
-        $location.path(page);
-    }
 });
 
 app.service('cepService', function($http){

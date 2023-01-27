@@ -15,7 +15,7 @@ app.config(function($routeProvider) {
 		});
 });
 
-app.controller('cepController', function($scope, cepService, navigationService){
+app.controller('cepController', function($scope, cepService){
 
     $scope.getViaCeps = function(){
         var pathVar = $scope.pathVar;
@@ -33,10 +33,6 @@ app.controller('cepController', function($scope, cepService, navigationService){
             window.alert('Algum dado está inválido, por favor revise e tente novamente');
         })
     }
-
-    $scope.goToSecondPage = function(){
-        navigationService.goToPage('/second.html');
-    }
 });
 
 app.service('cepService', function($http){
@@ -47,12 +43,6 @@ app.service('cepService', function($http){
 
     this.postCeps = function(ceps){
         return $http.post('http://localhost:8080/api/v1/via-ceps', ceps);
-    }
-});
-
-app.service('navigationService', function($location){
-    this.goToPage = function(page){
-        $location.path(page);
     }
 });
 
