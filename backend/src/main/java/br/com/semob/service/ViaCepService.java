@@ -11,4 +11,6 @@ public interface ViaCepService {
 
     List<ViaCepResponse> buscarTodasViaCepPesquisas();
 
+
+
 }

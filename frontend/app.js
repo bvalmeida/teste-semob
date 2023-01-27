@@ -1,10 +1,26 @@
-var app = angular.module('myApp', []);
+var app = angular.module('myApp', ['ngRoute']);
 
-app.controller('cepController', function($scope, cepService){
+app.config(function($routeProvider) {
+	$routeProvider
+		.when('/index', {
+			templateUrl: 'index.html',
+			controller: 'cepController'
+		})
+		.when('/second', {
+			templateUrl: 'second.html',
+			controller: 'SecondController'
+		})
+		.otherwise({
+			redirectTo: '/index'
+		});
+});
 
-    $scope.getAll = function(){
+app.controller('cepController', function($scope, cepService, navigationService){
+
+    $scope.getViaCepsPesquisas = function(){
         cepService.getAll().then(function(response){
             $scope.ceps = response.data;
+            console.log(response.data);
         })
     }
 
@@ -19,10 +35,17 @@ app.controller('cepController', function($scope, cepService){
             }).catch(function(error){
                 console.log(error);
             })
-
         }).catch(function(error){
             console.log(error);
         })
+    }
+
+    $scope.currentPage = 1;
+    $scope.itemsPerPage = 5;
+    $scope.totalItems = 0;
+
+    $scope.goToSecondPage = function(){
+        navigationService.goToPage('/second.html');
     }
 });
 
@@ -40,6 +63,12 @@ app.service('cepService', function($http){
         return $http.post('http://localhost:8080/api/v1/via-ceps', ceps);
     }
 });
+
+app.service('navigationService', function($location){
+    this.goToPage = function(page){
+        $location.path(page);
+    }
+})
 
 
 // $scope.get = function(){
