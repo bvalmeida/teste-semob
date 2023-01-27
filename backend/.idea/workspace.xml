@@ -5,26 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f567bd07-414d-4def-ae0b-916d603a57ab" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/semob/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/semob/config/CorConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/semob/config/ModelMapperConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/semob/controller/ViaCepController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/semob/dto/request/ViaCepRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/semob/dto/response/ViaCepResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/semob/handlerError/api/ApiExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/semob/handlerError/api/ErrorDescription$Campo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/semob/handlerError/api/ErrorDescription.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/semob/handlerError/exceptions/BadRequestException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/semob/handlerError/exceptions/NotFoundEntityException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/semob/handlerError/exceptions/ServerSideException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/semob/model/ViaCepEntity$ViaCepEntityBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/semob/model/ViaCepEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/semob/repository/ViaCepRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/semob/service/ViaCepService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/semob/service/ViaCepServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/semob/utilitys/ConvertUtility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V1__CREATE_VIA_CEP_TABLE.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/bower_components/angular/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/bower_components/angular/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/bower_components/angular/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/bower_components/angular/angular-csp.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/bower_components/angular/angular.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/bower_components/angular/angular.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/bower_components/angular/angular.min.js.gzip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/bower_components/angular/angular.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/bower_components/angular/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/bower_components/angular/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/bower_components/angular/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/second.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/second.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,11 +62,9 @@
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2Ks34KDyEdQVm8tcHQgoTymqeDc" />
   <component name="ProjectLevelVcsManager">
@@ -72,6 +85,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
@@ -83,8 +99,10 @@
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="br.com.semob.Main" />
-      <module name="teste-semob" />
+      <module name="backend" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.semob.*" />
@@ -124,5 +142,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

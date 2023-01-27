@@ -14,9 +14,29 @@ services:
       - 5432:5432
     networks:
       - teste-semob-networks
+
+  semob-api:
+    container_name: semob-api
+    build: "./backend"
+    depends_on:
+      - postgres
+    networks:
+      - teste-semob-networks
+    environment:
+      - PORT=8080
+      - SPRING_APPLICATION_NAME=teste-semob-backend
+      - DB_HOST=postgres
+      - DB_NAME=db-teste-semob
+      - POSTGRES_USER=db-teste-semob
+      - POSTGRES_PASSWORD=db-teste
+      - DB_PORT=5432
+    ports:
+      - 8080:8080
     
   teste-semob:
     container_name: teste-semob-front
+    depends_on:
+      - semob-api
     networks:
       - teste-semob-networks
     build: "./frontend"

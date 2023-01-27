@@ -1,7 +1,8 @@
-FROM openjdk:1.8-jdk-slim-buster
-
-RUN apt-get update;
-RUN apt-get install -y ----no-install-recommends;
+FROM openjdk:8u102-jdk
 
 WORKDIR /app
+
+COPY target/teste-semob-1.0-SNAPSHOT.jar /app/semob.jar
+
+ENTRYPOINT ["java", "-jar", "semob.jar"]
 
