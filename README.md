@@ -33,7 +33,7 @@ apartir de: https://www.oracle.com/br/java/technologies/javase/javase8-archive-d
 configurando o JAVA_HOME nas variáveis de ambiente, apontando para onde foi instalado
 
 - Para acessar o frontend de alguma IDE, basta na pasta raiz do front, abrir pelo cmd ou prompt
-e instalar o angular apartir de: npm install, npm instal angular, npm install http-server
+e instalar o angular apartir de: npm install, npm install angular, npm install http-server
 assim será instalado o angular e também o http-server para subir a aplicação frontend, por padrão o http-server
 sobe em uma porta 8080, se ela estiver em uso ele irá subir na próxima livre, 8081.
 - Se precisar subir em uma porta específica, basta utilizar: http-server -p 4200, por exemplo, ou substituir por
