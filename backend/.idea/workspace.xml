@@ -5,9 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f567bd07-414d-4def-ae0b-916d603a57ab" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/bower_components/angular/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/bower_components/angular/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/bower_components/angular/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/bower_components/angular/angular-csp.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/bower_components/angular/angular.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/bower_components/angular/angular.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/bower_components/angular/angular.min.js.gzip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/bower_components/angular/angular.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/bower_components/angular/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/bower_components/angular/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/bower_components/angular/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/second.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/second.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/second.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/second.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,20 +61,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/breno/Breno/Estudos/Projetos/teste-semob/backend&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/breno/Breno/Estudos/Projetos/teste-semob/backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.com.semob.handlerError.api" />
@@ -105,7 +118,7 @@
       <updated>1674749273020</updated>
       <workItem from="1674749274817" duration="82000" />
       <workItem from="1674749418531" duration="460000" />
-      <workItem from="1674749890027" duration="14635000" />
+      <workItem from="1674749890027" duration="16631000" />
     </task>
     <servers />
   </component>

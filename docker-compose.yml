@@ -13,10 +13,17 @@ services:
     ports:
       - 5432:5432
     networks:
-      - postgres
+      - teste-semob-networks
+    
+  teste-semob:
+    container_name: teste-semob-front
+    networks:
+      - teste-semob-networks
+    build: "./frontend"
+    ports:
+      - 4200:4200
+
 
 networks:
-  postgres:
-    driver: bridge
-  spring:
+  teste-semob-networks:
     driver: bridge
